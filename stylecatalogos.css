@@ -1,0 +1,249 @@
+.color{ color: #fc9dff;}
+
+body{
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 70px;
+    border-radius: 70px;
+    border: 2px solid white;
+    box-shadow: rgba(0,0,0,0.10);
+    color: #ff458f;
+    }
+
+button:hover{
+    background-color: #ff458f;
+    color: white;
+    border: 2px solid #ff458f;
+}
+
+i{
+    font-size: 60px;
+    text-align: left;
+    color: #ff8b0f;
+    text-decoration: none;
+}
+
+i:hover{
+    color: #ff458f;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 4em;
+    color: #ff458f;
+}
+
+#hero h2{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#hero p{
+    color: white;
+    font-size: 1.2em;
+    margin:40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Short Stack', cursive;
+    font-weight: 700;
+}
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background: rgba(0,0,0,0.30) url("mother.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+.description{
+    font-size: 0.8em;
+    font-weight: 500;
+    font-family: 'Short Stack', cursive;
+}
+#slide{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*cart 1*/
+section .card1 .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #ff458f;
+}
+
+section .card1 .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.card1{
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+
+
+.card1::before{
+    content: "";
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    background: #ff458f;
+    border-radius: 20px 20px 0 0;
+}
+
+.card1 .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card1 .name-description{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card1 .name-description .name{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+
+.card1 .download button{
+    border: 2px solid #ff458f;
+    box-shadow: rgba(0,0,0,0.10);
+    color: #ff458f;
+    cursor: pointer;
+}
+
+.card1 .download button:hover{
+    color: white;
+}
+
+/*cart 2*/
+
+section .card2 .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #ff8b0f;
+}
+
+section .card2 .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+
+.card2{
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+
+
+.card2::before{
+    content: "";
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    background: #ff8b0f;
+    border-radius: 20px 20px 0 0;
+}
+
+.card2 .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card2 .name-description{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card2 .name-description .name{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+
+.card2 .download button{
+    border: 2px solid #ff8b0f;
+    box-shadow: rgba(0,0,0,0.10);
+    color: #ff8b0f;
+    cursor: pointer;
+}
+
+.card2 .download button:hover{
+    color: white;
+    background-color: #ff8b0f;
+}
+

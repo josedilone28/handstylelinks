@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+    
+
+.buttons {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 150px;
+    padding-top: 20PX;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 1.2em;
+    background: url("background@2x.png");
+    background-size: 50%;
+}
+
+
+
+#ghost-title h1{
+    font-size: 3.5em;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.4em;
+    position: relative;
+    margin: 10px;
+}
+
+.btn1{
+    color: #000;
+}
+
+.btn1::after, .btn1::before {
+    border: 3px solid #000;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s ease;
+}
+
+.btn1:hover::after {
+    transform: translate(-5px, -5px);
+    border: 3px solid #ff458f;
+}
+
+.btn1:hover::before {
+    transform: translate(5px, 5px);
+    border: 3px solid #ff8b0f;
+}
+
+
+
+.btn2 {
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.4em;
+    position: relative;
+    margin: 10px;
+}
+
+.btn2{
+    color: #000;
+}
+
+.btn2::after, .btn2::before {
+    border: 3px solid #000;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s ease;
+}
+
+.btn2:hover::after {
+    transform: translate(-5px, -5px);
+    border: 3px solid #00e1df;
+}
+
+.btn2:hover::before {
+    transform: translate(5px, 5px);
+    border: 3px solid #ff458f;
+}
+
+
+
+.btn3 {
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.4em;
+    position: relative;
+    margin: 10px;
+}
+
+.btn3{
+    color: #000;
+}
+
+
+.btn3::after, .btn3::before {
+    border: 3px solid #000;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s ease;
+}
+
+.btn3:hover::after {
+    transform: translate(-5px, -5px);
+    border: 3px solid #ff8b0f;
+}
+
+.btn3:hover::before {
+    transform: translate(5px, 5px);
+    border: 3px solid #00e1df;
+}
+
+#powered{
+    text-align: center;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Connect ccs-->
+    <link rel="stylesheet" href="stylecatalogos.css">
+    <!--AWESOME FONT-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--html index-->
+    <link rel="stylesheet" href="index.html">
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+     <!--shortStack font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <title>catalogos</title>
+</head>
+<body>
+    <section id="catalogos" class="container">
+        <div><a href="index.html"><i class="fa-solid fa-angle-left"></i></a></div>
+        <div><h1>Catalogos</h1></div>
+    </section>
+    <section>
+        <div id="hero" class="container">
+            <h2>El dia de las madres<br>se <span class="color">acerca</span></h2>
+            <p>Ellas se merecen el mundo, ¡mira lo que tenemos para ellas!</p>
+            <form action="https://drive.google.com/file/d/1X-1twS9IbhK0CE3lw_l7ikL9ZEtRtVoC/view?usp=sharing">
+                <button type="submit">aqui</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="slide">
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+
+                <div class="swiper-slide card1" id="cart1">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="mothercard.jpg" alt="catalogo">
+                        </div>
+                        <div class="name-description">
+                            <span class="name">Dia de las madres</span>
+                            <span class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tempore autem earum? Illum incidunt quidem facilis, sunt soluta voluptatibus eveniet qui eos rem delectus quos autem adipisci nostrum, laborum reprehenderit.</span>
+                        </div>
+                        <div class="download">
+                            <form action="#">
+                                <button type="submit">Descarga</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card2">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="mothercard.jpg" alt="catalogo">
+                        </div>
+                        <div class="name-description">
+                            <span class="name">Dia de las madres 2</span>
+                            <span class="description">Catalogo referente al dia de las madres</span>
+                        </div>
+                        <div class="download">
+                            <form action="#">
+                                <button type="submit">Descarga</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+    
+        <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    </section>
+
+    
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit autem ea quo laboriosam nesciunt corrupti, expedita ducimus itaque quos debitis deserunt iusto dolore rem aperiam voluptates quidem odit consequuntur culpa.</p>
+    </footer>
+</body>
+</html>
